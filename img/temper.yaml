@@ -1,6 +1,6 @@
 layers:
   Dvorak:
-  - ['''', ',', ., P, Y, F, G, C, R, L]
+  - [Q, ',', ., P, Y, F, G, C, R, L]
   - - {t: A, h: LGUI}
     - {t: O, h: LALT}
     - {t: E, h: LCTRL}
@@ -98,10 +98,10 @@ combos:
   k: '='
   l: [Dvorak, Numpad]
 - p: [11, 12]
-  k: LC(LEFT)
+  k: Ctl+ LEFT
   l: [Numpad, Function]
 - p: [12, 13]
-  k: LC(RIGHT)
+  k: Ctl+ RIGHT
   l: [Numpad, Function]
 - p: [11, 12]
   k: ←
